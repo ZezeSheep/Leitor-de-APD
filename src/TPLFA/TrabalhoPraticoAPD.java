@@ -17,7 +17,7 @@ public class TrabalhoPraticoAPD {
 		Stack pilha = new Stack();
 		Scanner inputPalavra = new Scanner(System.in);
 		LeitorAPD leitor = new LeitorAPD();
-		APD apd = leitor.lerArquivo("teste.json");
+		APD apd = leitor.lerArquivo(args[0]);
 		/*
 		System.out.printf("%s\n",apd.getEstados());
 		System.out.printf("%s\n",apd.getAlfabeto());
@@ -31,7 +31,7 @@ public class TrabalhoPraticoAPD {
 		}
 		System.out.printf("%s\n",apd.getEstadoInicial());
 		System.out.printf("%s\n",apd.getEstadosFinais());
-		 */
+		*/ 
 		while(true) {
 			String palavra = inputPalavra.next();
 			if(palavra.equals("q"))
