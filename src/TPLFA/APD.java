@@ -58,6 +58,10 @@ public class APD {
 		estadoAtual = estadoInicial;
 		pilha.clear();
 	}
+	boolean verificarPalavra(String palavra) {
+		iniciarAPD();
+		return false;
+	}
 	
 
 }
