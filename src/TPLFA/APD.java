@@ -14,6 +14,10 @@ public class APD {
 	String estadoAtual;
 	Stack<Character> pilha;
 	
+	public APD() {
+		pilha = new Stack<>();
+	}
+	
 	void setEstados(ArrayList<String>estados) {
 		this.estados = estados;
 	}
@@ -60,6 +64,7 @@ public class APD {
 	}
 	boolean verificarPalavra(String palavra) {
 		iniciarAPD();
+		//Falta Completar Aqui :)
 		return false;
 	}
 	

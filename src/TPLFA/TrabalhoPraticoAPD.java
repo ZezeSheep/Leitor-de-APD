@@ -32,6 +32,18 @@ public class TrabalhoPraticoAPD {
 		System.out.printf("%s\n",apd.getEstadoInicial());
 		System.out.printf("%s\n",apd.getEstadosFinais());
 		 */
+		while(true) {
+			String palavra = inputPalavra.next();
+			if(palavra.equals("q"))
+				break;
+			else {
+				if(apd.verificarPalavra(palavra)) {
+					System.out.println("Sim");
+				}
+				else
+					System.out.println("Não");
+			}
+		}
 	}
 		
 }
