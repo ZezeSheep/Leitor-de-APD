@@ -1,14 +1,10 @@
 package TPLFA;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class LeitorAPD {
 	APD lerArquivo(String nomeArquivo){
@@ -255,6 +251,7 @@ public class LeitorAPD {
 			apd.setEstadosFinais(estadosFinais);				
 			
 			
+			leitor.close();
 			
 			return apd;
 		} catch (FileNotFoundException e) {
